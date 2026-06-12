@@ -32,7 +32,7 @@
         };
 
         devNvimBin = pkgs.symlinkJoin {
-          name = "typst-nvim";
+          name = "dev-nvim";
           paths = [ neovimWithPlugins ];
           nativeBuildInputs = [ pkgs.makeWrapper ];
           postBuild = ''
