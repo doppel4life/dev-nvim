@@ -46,7 +46,7 @@
         in {
             packages.${system} = {
                 default = devNvimBin;
-                typst-nvim = devNvimBin;
+                dev-nvim = devNvimBin;
             };
             devShells.${system}.default = pkgs.mkShell {
             name = "dev-nvim";
