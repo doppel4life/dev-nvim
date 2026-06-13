@@ -26,6 +26,7 @@
                         ]))
                         nvim-lspconfig
                         lualine-nvim
+                        blink-cmp
                     ];
                 };
             };
